@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P7/P7_CPU_eret_stall_1228upload/mips.xst" -ofn "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P7/P7_CPU_eret_stall_1228upload/mips.syr" 

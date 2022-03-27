@@ -1,0 +1,292 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mips.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mips"
+Output Format                      : NGC
+Target Device                      : xa3s50-4-vqg100
+
+---- Source Options
+Top Module Name                    : mips
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "DECODER.v" in library work
+Compiling verilog include file "MACRO.v"
+Compiling verilog file "W.v" in library work
+Module <DECODER> compiled
+Compiling verilog file "PC.v" in library work
+Module <REG_W> compiled
+Compiling verilog file "NPC.v" in library work
+Module <PC> compiled
+Compiling verilog file "MUX.v" in library work
+Module <NPC> compiled
+Module <MUX_ALUSrcA> compiled
+Module <MUX_ALUSrcB> compiled
+Module <MUX_REGorMEM_Result> compiled
+Compiling verilog file "MDU.v" in library work
+Compiling verilog include file "MACRO.v"
+Module <MUX_RegData> compiled
+Compiling verilog file "M.v" in library work
+Module <MDU> compiled
+Compiling verilog file "GRF.v" in library work
+Module <REG_M> compiled
+Compiling verilog file "Forward_MUX.v" in library work
+Compiling verilog include file "MACRO.v"
+Module <GRF> compiled
+Module <MF_GRFRD1_D> compiled
+Module <MF_GRFRD2_D> compiled
+Module <MF_ALUA_E> compiled
+Module <MF_ALUB_E> compiled
+Module <MF_MemData_E> compiled
+Compiling verilog file "EXT.v" in library work
+Compiling verilog include file "MACRO.v"
+Module <MF_DMWD_M> compiled
+Compiling verilog file "E.v" in library work
+Module <EXT> compiled
+Compiling verilog file "DM_EXT.v" in library work
+Compiling verilog include file "MACRO.v"
+Module <REG_E> compiled
+Compiling verilog file "D.v" in library work
+Module <DM_EXT> compiled
+Compiling verilog file "CP0.v" in library work
+Compiling verilog include file "MACRO.v"
+Module <REG_D> compiled
+Compiling verilog file "CMP.v" in library work
+Compiling verilog include file "MACRO.v"
+Module <CP0> compiled
+Compiling verilog file "BE.v" in library work
+Compiling verilog include file "MACRO.v"
+Module <CMP> compiled
+Compiling verilog file "ALU.v" in library work
+Compiling verilog include file "MACRO.v"
+Module <BE> compiled
+Compiling verilog file "STALL_CONTROLL.v" in library work
+Compiling verilog include file "MACRO.v"
+Module <ALU> compiled
+Compiling verilog file "FORWARD_CONTROLL.v" in library work
+Compiling verilog include file "MACRO.v"
+Module <STALL_CONTROLL> compiled
+Compiling verilog file "DATAPATH.v" in library work
+Compiling verilog include file "MACRO.v"
+Module <FORWARD_CONTROLL> compiled
+Compiling verilog file "TC.v" in library work
+Module <DATAPATH> compiled
+Compiling verilog file "CPU.v" in library work
+Module <TC> compiled
+Compiling verilog file "Bridge.v" in library work
+Compiling verilog include file "MACRO.v"
+Module <CPU> compiled
+Compiling verilog file "mips.v" in library work
+Module <Bridge> compiled
+Module <mips> compiled
+No errors in compilation
+Analysis of file <"mips.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <mips> in library <work>.
+
+Analyzing hierarchy for module <CPU> in library <work>.
+
+Analyzing hierarchy for module <Bridge> in library <work>.
+
+Analyzing hierarchy for module <TC> in library <work>.
+
+Analyzing hierarchy for module <DATAPATH> in library <work>.
+
+Analyzing hierarchy for module <STALL_CONTROLL> in library <work>.
+
+Analyzing hierarchy for module <FORWARD_CONTROLL> in library <work>.
+
+Analyzing hierarchy for module <PC> in library <work>.
+
+Analyzing hierarchy for module <REG_D> in library <work>.
+
+Analyzing hierarchy for module <DECODER> in library <work>.
+
+Analyzing hierarchy for module <GRF> in library <work>.
+
+Analyzing hierarchy for module <MF_GRFRD1_D> in library <work>.
+
+Analyzing hierarchy for module <MF_GRFRD2_D> in library <work>.
+
+Analyzing hierarchy for module <CMP> in library <work>.
+
+Analyzing hierarchy for module <EXT> in library <work>.
+
+Analyzing hierarchy for module <NPC> in library <work>.
+
+Analyzing hierarchy for module <REG_E> in library <work>.
+
+Analyzing hierarchy for module <MF_ALUA_E> in library <work>.
+
+Analyzing hierarchy for module <MUX_ALUSrcA> in library <work>.
+
+Analyzing hierarchy for module <MF_ALUB_E> in library <work>.
+
+Analyzing hierarchy for module <MUX_ALUSrcB> in library <work>.
+
+Analyzing hierarchy for module <ALU> in library <work>.
+
+Analyzing hierarchy for module <MDU> in library <work>.
+
+Analyzing hierarchy for module <MF_MemData_E> in library <work>.
+
+Analyzing hierarchy for module <REG_M> in library <work>.
+
+Analyzing hierarchy for module <MF_DMWD_M> in library <work>.
+
+Analyzing hierarchy for module <BE> in library <work>.
+
+Analyzing hierarchy for module <DM_EXT> in library <work>.
+
+Analyzing hierarchy for module <CP0> in library <work>.
+
+Analyzing hierarchy for module <REG_W> in library <work>.
+
+Analyzing hierarchy for module <MUX_REGorMEM_Result> in library <work>.
+
+Analyzing hierarchy for module <MUX_RegData> in library <work>.
+
+Analyzing hierarchy for module <DECODER> in library <work>.
+
+Analyzing hierarchy for module <DECODER> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <mips>.
+Module <mips> is correct for synthesis.
+ 
+Analyzing module <CPU> in library <work>.
+Module <CPU> is correct for synthesis.
+ 
+Analyzing module <DATAPATH> in library <work>.
+WARNING:Xst:852 - "DATAPATH.v" line 285: Unconnected input port 'in1' of instance 'MUX_ALUSrcA' is tied to GND.
+WARNING:Xst:852 - "DATAPATH.v" line 308: Unconnected input port 'in2' of instance 'MUX_ALUSrcB' is tied to GND.
+WARNING:Xst:852 - "DATAPATH.v" line 308: Unconnected input port 'in3' of instance 'MUX_ALUSrcB' is tied to GND.
+WARNING:Xst:852 - "DATAPATH.v" line 514: Unconnected input port 'in5' of instance 'MUX_RegData' is tied to GND.
+WARNING:Xst:852 - "DATAPATH.v" line 514: Unconnected input port 'in6' of instance 'MUX_RegData' is tied to GND.
+WARNING:Xst:852 - "DATAPATH.v" line 514: Unconnected input port 'in7' of instance 'MUX_RegData' is tied to GND.
+Module <DATAPATH> is correct for synthesis.
+ 
+Analyzing module <PC> in library <work>.
+Module <PC> is correct for synthesis.
+ 
+Analyzing module <REG_D> in library <work>.
+Module <REG_D> is correct for synthesis.
+ 
+Analyzing module <DECODER> in library <work>.
+WARNING:Xst:1464 - "DECODER.v" line 43: Exactly equal expression will be synthesized as an equal expression, simulation mismatch is possible.
+WARNING:Xst:864 - "DECODER.v" line 43: Comparisons to 'X' or 'Z' are treated as always false.
+Module <DECODER> is correct for synthesis.
+ 
+Analyzing module <GRF> in library <work>.
+ERROR:Xst:902 - "GRF.v" line 37: Unexpected register event in always block sensitivity list.
+ 
+Found 1 error(s). Aborting synthesis.
+--> 
+
+Total memory usage is 4516132 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    8 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

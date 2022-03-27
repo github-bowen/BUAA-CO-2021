@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/DATAPATH.v" Line 71: Port <arg fmt="%s" index="1">REGorMEM</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/DATAPATH.v" Line 158: Port <arg fmt="%s" index="1">REGorMEM</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/DATAPATH.v" Line 177: Port <arg fmt="%s" index="1">in1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/DATAPATH.v" Line 195: Port <arg fmt="%s" index="1">in2</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/DATAPATH.v" Line 238: Port <arg fmt="%s" index="1">REGorMEM</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/DATAPATH.v" Line 277: Port <arg fmt="%s" index="1">MemWrite</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/DATAPATH.v" Line 292: Port <arg fmt="%s" index="1">in1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/STALL_CONTROLL.v" Line 25: Port <arg fmt="%s" index="1">REGorMEM</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/STALL_CONTROLL.v" Line 36: Port <arg fmt="%s" index="1">REGorMEM</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/STALL_CONTROLL.v" Line 42: Port <arg fmt="%s" index="1">REGorMEM</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/FORWARD_CONTROLL.v" Line 20: Port <arg fmt="%s" index="1">REGorMEM</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/FORWARD_CONTROLL.v" Line 28: Port <arg fmt="%s" index="1">REGorMEM</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/FORWARD_CONTROLL.v" Line 36: Port <arg fmt="%s" index="1">REGorMEM</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/FORWARD_CONTROLL.v" Line 45: Port <arg fmt="%s" index="1">REGorMEM</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="Simulator" num="0" delta="unknown" >Unable to copy libPortabilityNOSH.dll to the simulation executable directory: <arg fmt="%s" index="1">boost::filesystem::copy_file: ￏﾵￍﾳￕￒﾲﾻﾵﾽￖﾸﾶﾨﾵￄￂﾷﾾﾶﾡﾣ, &quot;isim\mips_tb_isim_beh.exe.sim\libPortability.dll&quot;</arg>.
+</msg>
+
+</messages>
+

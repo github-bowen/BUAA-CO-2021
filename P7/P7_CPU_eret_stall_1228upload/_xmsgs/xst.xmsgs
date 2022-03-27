@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">DATAPATH.v</arg>&quot; line <arg fmt="%d" index="2">285</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">in1</arg>&apos; of instance &apos;<arg fmt="%s" index="4">MUX_ALUSrcA</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">DATAPATH.v</arg>&quot; line <arg fmt="%d" index="2">308</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">in2</arg>&apos; of instance &apos;<arg fmt="%s" index="4">MUX_ALUSrcB</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">DATAPATH.v</arg>&quot; line <arg fmt="%d" index="2">308</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">in3</arg>&apos; of instance &apos;<arg fmt="%s" index="4">MUX_ALUSrcB</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">DATAPATH.v</arg>&quot; line <arg fmt="%d" index="2">514</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">in5</arg>&apos; of instance &apos;<arg fmt="%s" index="4">MUX_RegData</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">DATAPATH.v</arg>&quot; line <arg fmt="%d" index="2">514</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">in6</arg>&apos; of instance &apos;<arg fmt="%s" index="4">MUX_RegData</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">DATAPATH.v</arg>&quot; line <arg fmt="%d" index="2">514</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">in7</arg>&apos; of instance &apos;<arg fmt="%s" index="4">MUX_RegData</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="1464" delta="new" >&quot;<arg fmt="%s" index="1">DECODER.v</arg>&quot; line <arg fmt="%d" index="2">43</arg>: Exactly equal expression will be synthesized as an equal expression, simulation mismatch is possible.
+</msg>
+
+<msg type="warning" file="Xst" num="864" delta="new" >&quot;<arg fmt="%s" index="1">DECODER.v</arg>&quot; line <arg fmt="%d" index="2">43</arg>: Comparisons to &apos;X&apos; or &apos;Z&apos; are treated as always false.
+</msg>
+
+<msg type="error" file="Xst" num="902" delta="new" >&quot;<arg fmt="%s" index="1">GRF.v</arg>&quot; line <arg fmt="%d" index="2">37</arg>: Unexpected <arg fmt="%s" index="3">register</arg> event in always block sensitivity list.
+</msg>
+
+</messages>
+

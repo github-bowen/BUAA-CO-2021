@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P4/P4_CPU/DATAPATH_tb_isim_beh.exe" -prj "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P4/P4_CPU/DATAPATH_tb_beh.prj" "work.DATAPATH_tb" "work.glbl" 

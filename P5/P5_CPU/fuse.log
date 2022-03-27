@@ -1,0 +1,78 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/mips_tb_isim_beh.exe -prj E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/mips_tb_beh.prj work.mips_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/W.v" into library work
+Analyzing Verilog file "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/PC.v" into library work
+Analyzing Verilog file "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/NPC.v" into library work
+Analyzing Verilog file "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/MUX.v" into library work
+Analyzing Verilog file "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/M.v" into library work
+Analyzing Verilog file "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/IM.v" into library work
+Analyzing Verilog file "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/GRF.v" into library work
+Analyzing Verilog file "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/Forward_MUX.v" into library work
+Analyzing Verilog file "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/EXT.v" into library work
+Analyzing Verilog file "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/E.v" into library work
+Analyzing Verilog file "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/DM.v" into library work
+Analyzing Verilog file "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/DECODER.v" into library work
+Analyzing Verilog file "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/D.v" into library work
+Analyzing Verilog file "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/CMP.v" into library work
+Analyzing Verilog file "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/ALU.v" into library work
+Analyzing Verilog file "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/STALL_CONTROLL.v" into library work
+Analyzing Verilog file "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/FORWARD_CONTROLL.v" into library work
+Analyzing Verilog file "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/DATAPATH.v" into library work
+Analyzing Verilog file "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/mips.v" into library work
+Analyzing Verilog file "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/mips_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/DATAPATH.v" Line 71: Port REGorMEM is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/DATAPATH.v" Line 158: Port REGorMEM is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/DATAPATH.v" Line 177: Port in1 is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/DATAPATH.v" Line 195: Port in2 is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/DATAPATH.v" Line 238: Port REGorMEM is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/DATAPATH.v" Line 277: Port MemWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/DATAPATH.v" Line 292: Port in1 is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/STALL_CONTROLL.v" Line 25: Port REGorMEM is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/STALL_CONTROLL.v" Line 36: Port REGorMEM is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/STALL_CONTROLL.v" Line 42: Port REGorMEM is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/FORWARD_CONTROLL.v" Line 20: Port REGorMEM is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/FORWARD_CONTROLL.v" Line 28: Port REGorMEM is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/FORWARD_CONTROLL.v" Line 36: Port REGorMEM is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/FORWARD_CONTROLL.v" Line 45: Port REGorMEM is not connected to this instance
+Completed static elaboration
+Compiling module PC
+Compiling module IM
+Compiling module REG_D
+Compiling module DECODER
+Compiling module GRF
+Compiling module MF_GRFRD1_D
+Compiling module MF_GRFRD2_D
+Compiling module CMP
+Compiling module EXT
+Compiling module NPC
+Compiling module REG_E
+Compiling module MF_ALUA_E
+Compiling module MUX_ALUSrcA
+Compiling module MF_ALUB_E
+Compiling module MUX_ALUSrcB
+Compiling module ALU
+Compiling module MF_MemData_E
+Compiling module REG_M
+Compiling module MF_DMWD_M
+Compiling module DM
+Compiling module REG_W
+Compiling module MUX_REGorMEM_Result
+Compiling module MUX_RegData
+Compiling module DATAPATH
+Compiling module STALL_CONTROLL
+Compiling module FORWARD_CONTROLL
+Compiling module mips
+Compiling module mips_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\mips_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 29 Verilog Units
+Built simulation executable E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P5/P5_CPU/mips_tb_isim_beh.exe
+Fuse Memory Usage: 32480 KB
+Fuse CPU Usage: 656 ms

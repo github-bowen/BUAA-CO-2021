@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P4/P4_CPU/ALU.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P4/P4_CPU/ALU.v</arg>&quot; Line <arg fmt="%d" index="2">1</arg>. <arg fmt="%s" index="3">Include file found: &apos;E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P4/P4_CPU/MACRO.v&apos; in file &quot;E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P4/P4_CPU/ALU.v&quot; line 1
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P4/P4_CPU/CONTROLLER.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P4/P4_CPU/CONTROLLER.v</arg>&quot; Line <arg fmt="%d" index="2">1</arg>. <arg fmt="%s" index="3">Include file found: &apos;E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P4/P4_CPU/MACRO.v&apos; in file &quot;E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P4/P4_CPU/CONTROLLER.v&quot; line 1
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P4/P4_CPU/DATAPATH.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P4/P4_CPU/DM.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P4/P4_CPU/EXT.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P4/P4_CPU/GRF.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P4/P4_CPU/IM.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P4/P4_CPU/NPC.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P4/P4_CPU/PC.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P4/P4_CPU/ShamtEXT.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/IMPORTANT_FILE/ISE_FOR_PROJECT/P4/P4_CPU/mips.v&quot; into library work</arg>
+</msg>
+
+</messages>
+
